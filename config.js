@@ -5,16 +5,16 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Dess",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Will You Be My Valentine? 🖤",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['🖤', '🖤', '🖤', '🖤', '🖤'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -23,12 +23,12 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            yesBtn: "Yeah ig",                                             // Text for "Yes" button
+            noBtn: "Ew nope",                                               // Text for "No" button
+            secretAnswer: "YESSSS ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "Hmmmmm, ok but how much?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
@@ -42,23 +42,23 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "NOW THAT'S MORE LIKE IT🖤🖤",  // Shows when they go past 5000%
+        high: "Ok now we're getting somewhere",              // Shows when they go past 1000%
+        normal: "Only that much?"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "LESSSS GOOOOO 🖤🖤🖤",
+        message: "🖤 I'M SO LUCKYYYY TO BE YOURS 🖤",
+        emojis: "🖤🤗🩶🤍"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
+        backgroundStart: "#bebdb8",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#b9bbb6",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
